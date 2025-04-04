@@ -1,4 +1,4 @@
-# 📜 Random Quote Generator 
+# 🚀  Random Quote Generator 
 A simple web app that fetches and displays random quotes using a public API, with a fallback to local quotes if the API fails.
 
 ![demo](demo.png)
