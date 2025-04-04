@@ -1,7 +1,7 @@
 # 🚀  Random Quote Generator 
 A simple web app that fetches and displays random quotes using a public API, with a fallback to local quotes if the API fails.
 
-![demo](demo.png)
+![demo](https://github.com/onsrajhi/JavaScript-API-Project/blob/3155b13c62eac6120ae5dff3491d011301d26806/demo.png)
 
 # ✨ Features
 
