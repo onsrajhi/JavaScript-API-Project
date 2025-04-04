@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto:ital,wght@0,700;1,700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: rgb(113, 50, 90);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container{
+  width: 100%;
+  padding: 50px;
+  background-color: rgb(201, 206, 210);
+  box-shadow: 0 20px 65px rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 18px;
+  text-align: center;
+}
+.container::after{
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 150%;
+  z-index: -1;
+  top: -10%;
+  left: -10%;
+}
+.container p{
+  color: #333;
+  line-height: 1.6;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.container h3{
+  color: #333;
+  line-height: 1.6;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+
+}
+.container button {
+  background-color: mediumvioletred;
+  border: none;
+  padding: 15px 55px;
+  border-radius: 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.container button:hover {
+  background-color: rgb(194, 24, 91);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+  
+  .container p {
+    font-size: 1.2rem;
+  }
+}
